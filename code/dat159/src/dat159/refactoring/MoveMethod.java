@@ -1,4 +1,4 @@
-package dat159;
+package dat159.refactoring;
 
 public class MoveMethod {
 

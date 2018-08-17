@@ -1,4 +1,4 @@
-package dat159;
+package dat159.refactoring;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

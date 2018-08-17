@@ -1,4 +1,4 @@
-package dat159;
+package dat159.refactoring;
 
 public class ExtractMethod {
 
@@ -24,6 +24,19 @@ public class ExtractMethod {
 		
 		System.out.println("The output is:");
 		int temp = fields_are_easy+1;
+		System.out.println(temp);
+		
+		// Avoid dead code above:
+		System.out.println(temp);
+	}
+	
+	void localVariableWithParams() {
+		
+		int base = 1;
+		int offset = 42;
+
+		System.out.println("The output is:");
+		int temp = fields_are_easy+base*offset;
 		System.out.println(temp);
 		
 		// Avoid dead code above:
